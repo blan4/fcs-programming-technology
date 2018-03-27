@@ -13,7 +13,7 @@ navigation: -1
 - Программа курса.
 - [Рейтинг](https://drive.google.com/open?id=0B-W-MM7ZOr0TQjFrMHRsMzdrT2s)
 - Задавать вопросы можно преподавателям на почту или в вк.
-- Дополнительные задачи [тут](/pages/hard_projects)
+- Дополнительные задачи [тут](hard_projects)
 - [Полезная литература](extra-materials)
 
 ## Форма контроля знаний

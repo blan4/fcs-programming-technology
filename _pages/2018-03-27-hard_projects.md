@@ -19,7 +19,7 @@ navigation: 42
    * матзадача???
 3. Машинное обучение
 	- написать нейросеть \(обычный перцептрон потом трехслойную и решить ею задачу распознавания рукописных цифр MNIST\)
-	- Решающие деревья. [Детальное описание](/pages/decision_tree)
+	- Решающие деревья. [Детальное описание](decision_tree)
 	- `K` ближайших соседей (kNN)
 	- `K` средних (kMeans)
 4. реализация in-memmory БД \(b-tree, hash-tree\)
@@ -27,7 +27,7 @@ navigation: 42
 6. Написать свои простые регэкспы
 7. Написать интерпретатор FORTH\(стековая машина\)
 8. Реализация реактивного вычисления, как в excel ячейки.
-9. [Детальное описание.](/pages/functional_collections) Реализация функциональных коллекций \(как java-stream, scala-collections\). Например: `collection.map(modifier).filter(...).reduce(...)`. Чтобы было [lazy](https://en.wikipedia.org/wiki/Lazy_evaluation) и оптимально: два последовательных фильтра схлапываются в один. Проходные:  `map`, `filter`, `flatMap`, `zip`, `take`. Терминальные: `reduce`, `fold`, `forEach`.
+9. [Детальное описание.](functional_collections) Реализация функциональных коллекций \(как java-stream, scala-collections\). Например: `collection.map(modifier).filter(...).reduce(...)`. Чтобы было [lazy](https://en.wikipedia.org/wiki/Lazy_evaluation) и оптимально: два последовательных фильтра схлапываются в один. Проходные:  `map`, `filter`, `flatMap`, `zip`, `take`. Терминальные: `reduce`, `fold`, `forEach`.
 10. Написать декоратор над функцией для хвостовой рекурсии в питоне - [http://www.datchley.name/recursion-tail-calls-and-trampolines/](http://www.datchley.name/recursion-tail-calls-and-trampolines/) [http://code.activestate.com/recipes/474088-tail-call-optimization-decorator/](http://code.activestate.com/recipes/474088-tail-call-optimization-decorator/)
 11. свой маленький блокчейн \(благо есть описание как это сделать\)
 12. выводить все последние новости с набора сайтов по rss\(или не только\) с фильтрами по ключевым словам.
