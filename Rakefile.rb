@@ -4,7 +4,6 @@ task default: :build
 
 desc "Build the site."
 task :build do
-  sh "rm -rf _site"
   sh "bundle exec jekyll build -d _site/fcs-programming"
 end
 
@@ -22,4 +21,6 @@ task test: :build do
     empty_alt_ignore: true,
     disable_external: true
   ).run
+
+  sh "rm -rf _site/fcs-programming"
 end
