@@ -11,7 +11,7 @@ desc "Run html proofer to validate the HTML output."
 task test: :build do
   require "html-proofer"
   HTMLProofer.check_directory(
-    "./_site",
+    "./_site/fcs-programming-technology",
     parallel: { in_threads: 4 },
     favicon: true,
     assume_extension: true,
