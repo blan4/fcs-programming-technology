@@ -22,5 +22,5 @@ task test: :build do
     disable_external: true
   ).run
 
-  sh "rm -rf _site/fcs-programming"
+  sh "rm -rf _site/fcs-programming-technology"
 end
