@@ -4,7 +4,7 @@ task default: :build
 
 desc "Build the site."
 task :build do
-  sh "bundle exec jekyll build -d _site/fcs-programming"
+  sh "bundle exec jekyll build -d _site/fcs-programming-technology"
 end
 
 desc "Run html proofer to validate the HTML output."
