@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby '2.5.0'
 
-gem "jekyll", '3.7.3'
+gem "jekyll", '3.7.4'
 gem "jekyll-feed"
 gem 'millidocs', :path => '_themes'
 
